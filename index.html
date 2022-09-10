@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập jv</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--bài 1-->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title bg-success">Bài số 1</h4>
+            <p class="card-text">Tìm số nguyên dương n nhỏ nhất <br> 1+2+..+n>10000</p>
+            <button class="btn btn-success" onclick="minInteger()">Kết quả</button>
+        </div>
+        <div id="ketqua" class="card-footer text-light bg-info" style="display:none">
+        </div>
+    </div>
+      <!--bài 1-->
+    <br>
+    <!--bài 2-->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title bg-warning">Bài số 2</h4>
+            <p class="card-text">Tổng số S(n)=x+x^2+x^3+..+x^n</p>
+            <div class="form-group col-3">
+                <input type="text" class="form-control col-3" name="" id="so_X" aria-describedby="helpId" placeholder="Nhập số x">
+                <br>
+                <input type="text" class="form-control col-3" name="" id="so_N" aria-describedby="helpId" placeholder="Nhập số n">
+                <br>
+                <div id="ketquabai2" class="card-footer text-light bg-warning" style="display:none">
+                </div>
+            </div>
+            <button class="btn btn-warning" onclick="sum()">Kết quả</button>
+        </div>
+    </div>
+    <!--bài 2-->
+    <br>
+    <!-- Bài số 3 -->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title bg-info">Bài số 3</h4>
+            <p class="card-text">Tính giai thừa của n</p>
+            <div class="form-group col-3">
+                <input type="text" class="form-control col-3" name="" id="so_N" aria-describedby="helpId" placeholder="Nhập số n">
+                <br>
+                <div id="GiaiThua" class="card-footer text-light bg-success" style="display:none">
+                </div>
+            </div>
+            <button class="btn btn-info" onclick="result()">Kết quả</button>
+        </div>
+    </div>
+    <!-- Bài số 3 -->
+    <br>
+    <!-- Bài số 4 -->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title bg-primary">Bài tập 4</h4>
+            <div class="content bg-dark col-1 text-light" id="DIV">
+            </div>
+            <br>
+            <button class="btn btn-primary" onclick="themdiv()">bấm vào thẻ</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/baitap.js"></script>
+</body>
+
+</html>
